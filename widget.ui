@@ -28,7 +28,7 @@
     </font>
    </property>
    <property name="text">
-    <string></string>
+    <string>O</string>
    </property>
   </widget>
   <widget class="QPushButton" name="button1">
@@ -46,7 +46,7 @@
     </font>
    </property>
    <property name="text">
-    <string></string>
+    <string>X</string>
    </property>
   </widget>
   <widget class="QPushButton" name="button2">
@@ -64,7 +64,7 @@
     </font>
    </property>
    <property name="text">
-    <string></string>
+    <string>X</string>
    </property>
   </widget>
   <widget class="QPushButton" name="button3">
@@ -82,7 +82,7 @@
     </font>
    </property>
    <property name="text">
-    <string></string>
+    <string>X</string>
    </property>
   </widget>
   <widget class="QPushButton" name="button4">
@@ -100,7 +100,7 @@
     </font>
    </property>
    <property name="text">
-    <string></string>
+    <string>O</string>
    </property>
   </widget>
   <widget class="QPushButton" name="button5">
@@ -118,7 +118,7 @@
     </font>
    </property>
    <property name="text">
-    <string></string>
+    <string>X</string>
    </property>
   </widget>
   <widget class="QPushButton" name="button6">
@@ -136,7 +136,7 @@
     </font>
    </property>
    <property name="text">
-    <string></string>
+    <string>X</string>
    </property>
   </widget>
   <widget class="QPushButton" name="button7">
@@ -154,7 +154,7 @@
     </font>
    </property>
    <property name="text">
-    <string></string>
+    <string>X</string>
    </property>
   </widget>
   <widget class="QPushButton" name="button8">
@@ -172,7 +172,7 @@
     </font>
    </property>
    <property name="text">
-    <string></string>
+    <string>O</string>
    </property>
   </widget>
  </widget>
