@@ -1,85 +1,85 @@
-# Qt UI Design Studio Usage Guide
+# Qt UI Design Studio 使用指南
 
-## Introduction
+## 简介
 
-Qt Design Studio is a powerful UI design and development tool that bridges the gap between designers and developers. It enables designers to create fluid, animated user interfaces while automatically generating production-ready Qt code. This tool is particularly valuable for creating modern, responsive interfaces for desktop, mobile, and embedded applications.
+Qt Design Studio 是一款强大的 UI 设计和开发工具，它连接了设计师和开发者之间的桥梁。它使设计师能够创建流畅的动画用户界面，同时自动生成可用于生产环境的 Qt 代码。这个工具对于创建现代化、响应式的桌面、移动和嵌入式应用程序界面特别有价值。
 
-## Key Features
+## 主要特性
 
-### Visual Design Environment
-Qt Design Studio provides an intuitive visual interface where designers can drag and drop UI components, configure properties, and see changes in real-time. The canvas-based approach eliminates the need for manual code writing during the design phase, making it accessible to designers without programming expertise.
+### 可视化设计环境
+Qt Design Studio 提供了一个直观的可视化界面，设计师可以在其中拖放 UI 组件、配置属性并实时查看更改。基于画布的方法消除了设计阶段手动编写代码的需要，使没有编程专业知识的设计师也能轻松使用。
 
-### Component Library
-The tool includes an extensive library of pre-built Qt Quick components including buttons, text fields, sliders, and complex custom controls. Users can also import custom components or create reusable component libraries tailored to their project needs, promoting consistency across applications.
+### 组件库
+该工具包含一个广泛的预构建 Qt Quick 组件库，包括按钮、文本字段、滑块和复杂的自定义控件。用户还可以导入自定义组件或创建适合其项目需求的可重用组件库，促进应用程序之间的一致性。
 
-### Timeline and Animation
-One of Design Studio's standout features is its timeline-based animation system. Designers can create smooth transitions, keyframe animations, and state-based animations directly in the visual editor. This enables the creation of sophisticated UI experiences without writing animation code.
+### 时间轴和动画
+Design Studio 的突出特性之一是其基于时间轴的动画系统。设计师可以直接在可视化编辑器中创建平滑的过渡、关键帧动画和基于状态的动画。这使得无需编写动画代码即可创建复杂的 UI 体验成为可能。
 
-### States and Transitions
-The states system allows defining different visual configurations of components. For example, a button can have normal, hover, and pressed states. Transitions between states can be animated smoothly, providing responsive visual feedback to user interactions.
+### 状态和转换
+状态系统允许定义组件的不同视觉配置。例如，一个按钮可以有正常、悬停和按下状态。状态之间的转换可以平滑地动画化，为用户交互提供响应式的视觉反馈。
 
-## Getting Started
+## 入门指南
 
-### Project Creation
-Launch Qt Design Studio and create a new project by selecting File > New Project. Choose from templates like "Qt Quick Application" for mobile/embedded interfaces or "Qt Quick UI Prototype" for rapid prototyping. Configure project settings including target platform and screen resolution.
+### 项目创建
+启动 Qt Design Studio 并通过选择"文件">"新建项目"来创建新项目。从模板中选择，如用于移动/嵌入式界面的"Qt Quick 应用程序"或用于快速原型的"Qt Quick UI 原型"。配置项目设置，包括目标平台和屏幕分辨率。
 
-### Workspace Overview
-The workspace consists of several key panels:
-- **Navigator**: Displays the hierarchical structure of UI elements
-- **Library**: Contains available components and assets
-- **Properties**: Shows configurable properties for selected elements
-- **Form Editor**: The main canvas for visual design
-- **Timeline**: Manages animations and transitions
+### 工作区概览
+工作区由几个关键面板组成：
+- **导航器**：显示 UI 元素的层次结构
+- **库**：包含可用的组件和资源
+- **属性**：显示所选元素的可配置属性
+- **表单编辑器**：用于可视化设计的主画布
+- **时间轴**：管理动画和转换
 
-### Adding Components
-Drag components from the Library panel onto the Form Editor canvas. Position and resize elements visually. Use the Properties panel to configure appearance, behavior, and data bindings. The Navigator panel helps manage complex hierarchies of nested components.
+### 添加组件
+从库面板将组件拖动到表单编辑器画布上。以可视化方式定位和调整元素大小。使用属性面板配置外观、行为和数据绑定。导航器面板帮助管理嵌套组件的复杂层次结构。
 
-## Design Workflow
+## 设计工作流程
 
-### Layout Design
-Start by defining the overall layout structure using layout containers like ColumnLayout, RowLayout, or GridLayout. These ensure proper responsiveness across different screen sizes. Set anchors and constraints to define how elements resize and reposition dynamically.
+### 布局设计
+首先使用布局容器（如 ColumnLayout、RowLayout 或 GridLayout）定义整体布局结构。这些确保在不同屏幕尺寸上的适当响应性。设置锚点和约束来定义元素如何动态调整大小和重新定位。
 
-### Styling and Theming
-Apply visual styling through the Properties panel, setting colors, fonts, borders, and shadows. Create reusable style definitions using Qt Quick Controls 2 styling system. Import custom fonts and assets like icons and images into your project assets directory.
+### 样式和主题
+通过属性面板应用视觉样式，设置颜色、字体、边框和阴影。使用 Qt Quick Controls 2 样式系统创建可重用的样式定义。将自定义字体和资源（如图标和图像）导入到项目资源目录中。
 
-### Creating Animations
-Switch to the Timeline view to create animations. Add properties to the timeline, set keyframes at different time points, and adjust easing curves for natural motion. Use the playback controls to preview animations. State-based animations can trigger automatically when component states change.
+### 创建动画
+切换到时间轴视图以创建动画。将属性添加到时间轴，在不同时间点设置关键帧，并调整缓动曲线以获得自然的运动效果。使用播放控件预览动画。当组件状态更改时，基于状态的动画可以自动触发。
 
-### Interactive Prototyping
-Connect user actions to state changes using the Connections panel. For example, clicking a button can trigger a state change that animates panel transitions. While full business logic requires code, Design Studio enables rich interactive prototypes through its visual tools.
+### 交互式原型设计
+使用连接面板将用户操作连接到状态更改。例如，单击按钮可以触发状态更改，从而使面板转换产生动画效果。虽然完整的业务逻辑需要代码，但 Design Studio 通过其可视化工具实现了丰富的交互式原型。
 
-## Advanced Features
+## 高级特性
 
-### Data Binding
-Bind component properties to data models using Qt's property binding system. This enables dynamic UIs that update automatically when underlying data changes. Define backend interfaces that developers can implement in C++ or JavaScript.
+### 数据绑定
+使用 Qt 的属性绑定系统将组件属性绑定到数据模型。这使得动态 UI 能够在底层数据更改时自动更新。定义开发人员可以在 C++ 或 JavaScript 中实现的后端接口。
 
-### Custom Components
-Create custom reusable components by composing existing elements. Define exposed properties and signals that make components configurable and interactive. Save custom components to project libraries for use across multiple views.
+### 自定义组件
+通过组合现有元素创建自定义可重用组件。定义公开的属性和信号，使组件可配置和可交互。将自定义组件保存到项目库中，以便在多个视图中使用。
 
-### Asset Management
-Import and organize graphics, icons, fonts, and other assets. Design Studio supports various image formats and can optimize assets for target platforms. Use the asset importer to convert design files from tools like Figma or Sketch.
+### 资源管理
+导入和组织图形、图标、字体和其他资源。Design Studio 支持各种图像格式，并可以为目标平台优化资源。使用资源导入器转换来自 Figma 或 Sketch 等工具的设计文件。
 
-### Code Integration
-Design Studio generates clean QML code that developers can extend. The live preview updates as code changes, enabling seamless designer-developer collaboration. Developers can implement business logic in separate JavaScript or C++ files while designers maintain UI ownership.
+### 代码集成
+Design Studio 生成开发人员可以扩展的干净 QML 代码。实时预览随着代码更改而更新，实现无缝的设计师-开发人员协作。开发人员可以在单独的 JavaScript 或 C++ 文件中实现业务逻辑，而设计师保持 UI 所有权。
 
-## Best Practices
+## 最佳实践
 
-### Component Organization
-Maintain a clear component hierarchy with descriptive names. Group related elements in parent containers. Avoid deeply nested structures that become difficult to manage. Use custom components to encapsulate complex functionality.
+### 组件组织
+使用描述性名称维护清晰的组件层次结构。将相关元素分组在父容器中。避免难以管理的深层嵌套结构。使用自定义组件封装复杂功能。
 
-### Performance Optimization
-Minimize the number of visual elements and animations running simultaneously. Use image caching and appropriate image formats. Lazy load content that isn't immediately visible. Test performance on target devices regularly during development.
+### 性能优化
+最小化同时运行的视觉元素和动画数量。使用图像缓存和适当的图像格式。延迟加载不立即可见的内容。在开发过程中定期在目标设备上测试性能。
 
-### Responsive Design
-Design for multiple screen sizes and orientations from the start. Use flexible layouts and relative sizing rather than fixed pixel dimensions. Test responsive behavior by resizing the preview window or switching between device profiles.
+### 响应式设计
+从一开始就为多种屏幕尺寸和方向设计。使用灵活的布局和相对大小，而不是固定的像素尺寸。通过调整预览窗口大小或在设备配置文件之间切换来测试响应式行为。
 
-### Version Control
-Keep QML files and assets in version control systems like Git. Design Studio projects consist of text-based files that work well with source control. Coordinate with developers to avoid conflicts when both modify the same files simultaneously.
+### 版本控制
+将 QML 文件和资源保存在 Git 等版本控制系统中。Design Studio 项目由基于文本的文件组成，可以很好地与源代码控制配合使用。与开发人员协调，以避免双方同时修改相同文件时发生冲突。
 
-## Collaboration Workflow
+## 协作工作流程
 
-Effective teams establish clear ownership boundaries. Designers typically own .ui.qml files created in Design Studio, while developers work in .qml and C++/JavaScript files containing logic. Regular communication and clear file naming conventions prevent conflicts. Use Design Studio's live preview to review developer implementations without leaving the design environment.
+高效的团队建立明确的所有权边界。设计师通常拥有在 Design Studio 中创建的 .ui.qml 文件，而开发人员在包含逻辑的 .qml 和 C++/JavaScript 文件中工作。定期沟通和清晰的文件命名约定可以防止冲突。使用 Design Studio 的实时预览在不离开设计环境的情况下查看开发人员的实现。
 
-## Conclusion
+## 结论
 
-Qt Design Studio democratizes UI development by enabling designers to create sophisticated, animated interfaces that generate production-ready code. Its visual approach, combined with powerful animation and state management features, accelerates the design-to-development process. Whether building desktop applications, mobile apps, or embedded interfaces, Design Studio provides the tools needed to create modern, responsive user experiences efficiently. The key to success lies in understanding the tool's capabilities, following best practices, and maintaining effective designer-developer collaboration throughout the project lifecycle.
+Qt Design Studio 通过使设计师能够创建生成可用于生产的代码的复杂动画界面，实现了 UI 开发的民主化。其可视化方法与强大的动画和状态管理功能相结合，加速了从设计到开发的过程。无论是构建桌面应用程序、移动应用程序还是嵌入式界面，Design Studio 都提供了高效创建现代响应式用户体验所需的工具。成功的关键在于理解工具的功能、遵循最佳实践，并在整个项目生命周期中保持有效的设计师-开发人员协作。
