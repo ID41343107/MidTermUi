@@ -17,7 +17,11 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
+private slots:
+    void onButtonClicked();
+
 private:
     Ui::Widget *ui;
+    bool isPlayerX;
 };
 #endif // WIDGET_H
